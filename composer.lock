@@ -1,0 +1,101 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
+        "This file is @generated automatically"
+    ],
+    "content-hash": "9e92c539d48627e39e1660f5ac97934c",
+    "packages": [
+        {
+            "name": "divengine/div",
+            "version": "5.1.4",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/divengine/div.git",
+                "reference": "ef93759ae46381ad5ed68cfe83a47163586e278d"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/divengine/div/zipball/ef93759ae46381ad5ed68cfe83a47163586e278d",
+                "reference": "ef93759ae46381ad5ed68cfe83a47163586e278d",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.4.0"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "divengine\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "GPL-3.0-or-later"
+            ],
+            "authors": [
+                {
+                    "name": "Rafa Rodriguez",
+                    "role": "Founder",
+                    "email": "rafageist@hotmail.com",
+                    "homepage": "https://rafageist.github.io"
+                }
+            ],
+            "description": "Div PHP Template Engine",
+            "homepage": "https://divengine.com",
+            "keywords": [
+                "code generator",
+                "template engine"
+            ],
+            "time": "2019-08-23T05:21:15+00:00"
+        },
+        {
+            "name": "divengine/ways",
+            "version": "2.3.4",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/divengine/ways.git",
+                "reference": "4a1a569832063b138798afa3aa89acabb464c45d"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/divengine/ways/zipball/4a1a569832063b138798afa3aa89acabb464c45d",
+                "reference": "4a1a569832063b138798afa3aa89acabb464c45d",
+                "shasum": ""
+            },
+            "require": {
+                "ext-json": "*",
+                "php": ">=5.4.0"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "divengine\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "GPL-3.0-or-later"
+            ],
+            "description": "Div PHP Ways",
+            "homepage": "https://divengine.com/ways",
+            "keywords": [
+                "controllers",
+                "flow control",
+                "mvc",
+                "routing"
+            ],
+            "time": "2019-08-24T04:05:14+00:00"
+        }
+    ],
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "stable",
+    "stability-flags": [],
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": {
+        "php": ">=7.0.0"
+    },
+    "platform-dev": []
+}

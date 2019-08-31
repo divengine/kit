@@ -1,5 +1,7 @@
 <?php
 
+use divengine\div;
+
 /**
  * Compile a template with a model
  */
@@ -13,6 +15,7 @@ $commands['build'] = [
     ],
     'do' => function ($args, &$data = []) {
         message("Starting builder...");
+        $className = 'divengine\\div';
 
         $tpl = $args['-t'];
         $out = '';
@@ -37,7 +40,7 @@ $commands['build'] = [
             $args['-g'] = trim($docProps['main']['engine']);
         }
 
-        $className = 'div';
+
         if (isset($args['-g'])) {
             $path = $args['-g'];
             $full_path = PACKAGES . "/" . $path;
@@ -64,7 +67,13 @@ $commands['build'] = [
         div::docsOff();
 
         $div = new $className($tpl, $dat);
-        $className::logOn();
+        $reflection = new ReflectionObject($div);
+
+        echo "--------------------\n";
+        echo "Div PHP Template Engine: $className version ".(new $className('{$div.version}'))."\n";
+        echo "div is located at ".$reflection->getFileName()."\n";
+        echo "--------------------\n";
+
         $t1 = microtime(true);
         $code = $div . "";
         $t2 = microtime(true);

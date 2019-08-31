@@ -4,10 +4,10 @@
  * Show the current version of div-cli
  */
 $commands['version'] = [
-    'help' => "Show the version of current installed Div PHP Template Engine",
+    'help' => "Show the version of current installed Div Development Kit",
     'type' => null,
     'do' => function () {
-        echo "div-cli version 1.0\n";
+        echo "Div Development Kit 1.0.0\n";
     }
 ];
 

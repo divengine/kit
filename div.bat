@@ -1,13 +1,13 @@
 @echo off
 
-if "%DIV_HOME%"=="" goto error
+if "%DIV_KIT_HOME%"=="" goto error
 
-php %DIV_HOME%\div-cli.php %*
+php %DIV_KIT_HOME%\bin\cli.php %*
 goto end
 
 :error
 echo -  
-echo ERROR: Enviroment variable DIV_HOME is not set in the system's properties.
+echo ERROR: Enviroment variable DIV_KIT_HOME is not set in the system's properties.
 echo -
 
 :end

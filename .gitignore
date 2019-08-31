@@ -4,5 +4,6 @@
 .buildpath
 .target
 nbproject/
-
+vendor/
+tests/
 
