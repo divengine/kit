@@ -8,16 +8,16 @@
     "packages": [
         {
             "name": "divengine/div",
-            "version": "5.1.4",
+            "version": "5.1.5",
             "source": {
                 "type": "git",
                 "url": "https://github.com/divengine/div.git",
-                "reference": "ef93759ae46381ad5ed68cfe83a47163586e278d"
+                "reference": "a3f36fd8945ae72af9bbf11f684874d861cff271"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/divengine/div/zipball/ef93759ae46381ad5ed68cfe83a47163586e278d",
-                "reference": "ef93759ae46381ad5ed68cfe83a47163586e278d",
+                "url": "https://api.github.com/repos/divengine/div/zipball/a3f36fd8945ae72af9bbf11f684874d861cff271",
+                "reference": "a3f36fd8945ae72af9bbf11f684874d861cff271",
                 "shasum": ""
             },
             "require": {
@@ -36,9 +36,9 @@
             "authors": [
                 {
                     "name": "Rafa Rodriguez",
-                    "role": "Founder",
                     "email": "rafageist@hotmail.com",
-                    "homepage": "https://rafageist.github.io"
+                    "homepage": "https://rafageist.github.io",
+                    "role": "Founder"
                 }
             ],
             "description": "Div PHP Template Engine",
@@ -47,7 +47,7 @@
                 "code generator",
                 "template engine"
             ],
-            "time": "2019-08-23T05:21:15+00:00"
+            "time": "2019-09-22T01:15:01+00:00"
         },
         {
             "name": "divengine/ways",
